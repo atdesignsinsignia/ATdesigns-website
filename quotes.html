@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/quotes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>AT Designs Insignia Ltd. - Custom metal products and awards.</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-left-container">     
+
+            <a href="./index.html"><img src="./images/ATlogo.png" alt="AT Designs Logo" class="logo-image"></a>
+
+            <div class="header-phone-container">
+                <img src="./images/PhoneHeader.png" alt="phone" class="header-phone">
+                <strong><em><p>+1-800-288-0111</p></em></strong>
+            </div>   
+        </div>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./about.html">ABOUT US</a>
+            <a href="./products.html">PRODUCTS</a>
+            <a class="nav-quotes" href="./quotes.html" class="btn">GET A QUOTE</a>
+        </nav>
+        <div class="hamburger-icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        
+    </header>
+    <div class="burger-nav-container"></div>
+    
+    <main>
+        <div class="quote-header">
+            <h1>Let's get started!</h1>
+        </div>
+
+        <div class="container">
+            
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="quote-bullets">
+                    <ul>
+                        <li>Typically our resellers own their own businesses, some are trophy shops, some are online businesses, some are advertising specialty companies, some are print shops, etc.
+                        There are lots of varieties in the types of resellers that we have.</li>
+                        <li>If you would like to apply to become a reseller, fill out our application form: <br><a href="./sellourproducts.html"><strong><span>Distributor Application</span></strong></li></a>
+                        <li>If you are a reseller, we will quickly answer your request.
+                        If you are a consumer interested in a product, we will refer you to a reseller that serves your area.</li>
+                        <li>If you would like to send artwork files, please email them to <a href="mailto:info@atdesigns.com"><span>info@atdesigns.com</span></a></li>
+                    </ul>
+                </div>
+
+                <label for="customer_type" class="required">Are you a Reseller or a Consumer?</label>
+                <select id="customer_type" name="customer_type" required>
+                    <option value="">Please select</option>
+                    <option value="Consumer">Consumer - We will refer you to a Reseller</option>
+                    <option value="Reseller">Reseller - We will quote you directly</option>
+                </select>
+
+                <label for="name" class="required">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company">
+
+                <label for="state_province">State/Province</label>
+                <select id="state_province" name="state_province">
+                    <option value="">Please select</option>
+                    <optgroup label="United States">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </optgroup>
+                    <optgroup label="Canada">
+                        <option value="AB">Alberta</option>
+                        <option value="BC">British Columbia</option>
+                        <option value="MB">Manitoba</option>
+                        <option value="NB">New Brunswick</option>
+                        <option value="NL">Newfoundland and Labrador</option>
+                        <option value="NS">Nova Scotia</option>
+                        <option value="ON">Ontario</option>
+                        <option value="PE">Prince Edward Island</option>
+                        <option value="QC">Quebec</option>
+                        <option value="SK">Saskatchewan</option>
+                        <option value="NT">Northwest Territories</option>
+                        <option value="NU">Nunavut</option>
+                        <option value="YT">Yukon</option>
+                    </optgroup>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="product_type" class="required">Type of Product</label>
+                <select id="product_type" name="product_type" required>
+                    <option value="">Please select</option>
+                    <option value="Medals">Medals</option>
+                    <option value="Lapel Pins">Lapel Pins</option>
+                    <option value="Buckles">Buckles</option>
+                    <option value="Coins">Coins</option>
+                    <option value="Bagtags">Bagtags</option>
+                    <option value="Key Tags">Key Tags</option>
+                    <option value="Dog Tags">Dog Tags</option>
+                    <option value="Police Badges">Police Badges</option>
+                    <option value="Automobile Badges">Automobile Badges</option>
+                    <option value="Plaques">Plaques</option>
+                    <option value="Keys to the City">Keys to the City</option>
+                    <option value="Letter Openers">Letter Openers</option>
+                    <option value="Ornaments">Ornaments</option>
+                    <option value="Jewelry">Jewelry</option>
+                    <option value="Pendants">Pendants</option>
+                    <option value="Bottle Openers">Bottle Openers</option>
+                    <option value="Recognition Awards">Recognition Awards</option>
+                    <option value="Military Products">Military Products</option>
+                    <option value="Uniform Products">Uniform Products</option>
+                    <option value="Fundraising Products">Fundraising Products</option>
+                    <option value="Souvenir Products">Souvenir Products</option>
+                    <option value="Other">Other..</option>
+                </select>
+                
+                <label for="quantity">Approximately how many pieces do you want?</label>
+                <input type="number" id="quantity" name="quantity" min="1" step="1">
+
+                
+                <label for="message" class="required">How would you like it to look? (Color, size, finish, etc.)</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                <div class="quote-btn-container">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <div class="footer-left-container">
+            <img src="./images/logo-footer.png" class="logo-footer" alt="AT Designs Logo">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./products.html">PRODUCTS</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="./sellourproducts.html">BECOME A DISTRIBUTOR</a></li>
+                <li><a href="./Catalog/catalog.html">VIEW CATALOGS</a></li>
+                <li><a href="./quotes.html">CONTACT US</a></li>
+
+            </ul>
+        </div>
+  
+    </footer>
+    <script src="./js/hamburger.js"></script>
+</body>
+</html>

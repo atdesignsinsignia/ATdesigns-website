@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/quotes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>AT Designs Insignia Ltd. - Custom metal products and awards.</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-left-container">     
+
+            <a href="./index.html"><img src="./images/ATlogo.png" alt="AT Designs Logo" class="logo-image"></a>
+
+            <div class="header-phone-container">
+                <img src="./images/PhoneHeader.png" alt="phone" class="header-phone">
+                <strong><em><p>+1-800-288-0111</p></em></strong>
+            </div>   
+        </div>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./about.html">ABOUT US</a>
+            <a href="./products.html">PRODUCTS</a>
+            <a class="nav-quotes" href="./quotes.html" class="btn">GET A QUOTE</a>
+        </nav>
+        <div class="hamburger-icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        
+    </header>
+    <div class="burger-nav-container"></div>
+    
+    <main>
+        <div class="quote-header">
+            <h1>Sell Our Products</h1>
+        </div>
+
+        <div class="container">
+            
+            <form name="distributor" method="POST" data-netlify="true">
+
+                <h3 class="distributor-form-header">Distributor Application Form</h3>
+             
+                <div class="distributor-bullets">
+                    <h5>Join our Growing Group of Resellers:</h5>
+                    <ul>
+                        <li>Great opportunity to add to your existing product line</li>
+                        <li>No up front costs - no inventory to carry</li>
+                        <li>Reasonable profits available on every order</li>
+                    </ul>
+                </div>
+               
+                <div class="distributor-bullets">
+                    <h5>Do You Qualify?</h5>
+                    <ul>
+                        <li>Typically our resellers own their own busineses, some are trophy shops, some are online businesses, some are advertising speciality companies, some are print shops, etc. - there are lots of variety in the types of resellers that we have</li>
+                        <li>If you are looking for products for your own use, then we would invite you to complete our <a href="./quotes.html"><span><strong>Quote Request</strong></span></a> form and we will direct you to one of our resellers that services your area.</li>
+                        <li>However, if you want to order our products for sale to other companies, then we welcome you to apply below</li>
+                    </ul>
+                </div>
+                
+                <div class="distributor-bullets">
+                    <h5>How much does it cost?</h5>
+                    <ul>
+                        <li>Nothing.</li>
+                        <li>There is no inventory to carry - you only place an order when you have an order from one of your customers.</li>
+                    </ul>
+                </div>
+
+
+
+
+                <label for="name" class="required">Contact Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="company" class="required">Company Name</label>
+                <input type="text" id="company" name="company" required>
+
+                <label for="address" class="required">Address</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+
+                <label for="state_province" class="required">State/Province</label>
+                <select id="state_province" name="state_province" required>
+                    <option value="">Please select</option>
+                    <optgroup label="USA States">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </optgroup>
+                    <optgroup label="Canadian Provinces">
+                        <option value="AB">Alberta</option>
+                        <option value="BC">British Columbia</option>
+                        <option value="MB">Manitoba</option>
+                        <option value="NB">New Brunswick</option>
+                        <option value="NL">Newfoundland and Labrador</option>
+                        <option value="NS">Nova Scotia</option>
+                        <option value="ON">Ontario</option>
+                        <option value="PE">Prince Edward Island</option>
+                        <option value="QC">Quebec</option>
+                        <option value="SK">Saskatchewan</option>
+                        <option value="NT">Northwest Territories</option>
+                        <option value="NU">Nunavut</option>
+                        <option value="YT">Yukon</option>
+                    </optgroup>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="business_activity">Your Primary Business Activity:</label>
+                <textarea id="business_activity" name="business_activity" rows="2"></textarea>
+
+                <label for="industry_associations">Industry Associations:
+                    (Examples:  ARA, ASI, PPAC, PPAI)</label>
+                <textarea id="industry_associations" name="industry_associations" rows="2"></textarea>
+
+
+                
+                <label for="message" class="required">To help serve you better, please indicate
+                    which products are of most interest.</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                <div class="quote-btn-container">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <div class="footer-left-container">
+            <img src="./images/logo-footer.png" class="logo-footer" alt="AT Designs Logo">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./products.html">PRODUCTS</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="./sellourproducts.html">BECOME A DISTRIBUTOR</a></li>
+                <li><a href="./Catalog/catalog.html">VIEW CATALOGS</a></li>
+                <li><a href="./quotes.html">CONTACT US</a></li>
+
+            </ul>
+        </div>
+  
+    </footer>
+    <script src="./js/hamburger.js"></script>
+</body>
+</html>

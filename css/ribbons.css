@@ -1,0 +1,45 @@
+.ribbons-catalog-images {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: white;
+    margin: 2rem;
+}
+
+.catalog-image {
+    margin-bottom: 2rem;
+   
+}
+
+
+
+.ribbons-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45rem;
+    justify-content: center;
+    align-items: center;
+  
+  
+    gap: 2rem;
+    
+}
+
+.ribbon-sample img{
+    width: 9rem;
+}
+
+.ribbon-sample h4{
+    text-align: center;
+}
+
+.ribbon-sub-header {
+    text-align: center;
+    margin-block: 4rem
+    ;
+}
+
+.sub-header-note {
+    font-size: smaller;
+    
+}

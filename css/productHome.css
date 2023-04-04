@@ -1,0 +1,303 @@
+a {
+    color: #333;
+}
+
+
+/*BANNER SECTION*/
+
+
+.header-text-container {
+    text-align: center;
+    margin-block: 3rem;
+}
+
+.medals-image-container {
+    height: 30rem;
+   
+    background-image: url(../images/medals.png); 
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 5rem; */
+}
+
+.pins-image-container {
+    height: 36rem;
+   
+    background-image: url(../images/coat-01.png); 
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 5rem; */
+}
+
+.banner-image-container {
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ladies-belt-image-container {
+    height: 30rem;
+   
+    background-image: url(../images/ladies-belt.png); 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.champ-bracelet-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.champ-bracelet-img {
+ max-width: 15rem;
+ border-radius: 1rem;
+    
+}
+
+
+
+.coin-banner-image{
+    max-width: 60%;
+}
+
+
+/*DESCRIPTION SECTION */
+
+.products-description {
+    max-width: 60%;
+    margin-bottom: 4rem;
+    
+}
+
+.products-description li {
+  margin: 1rem;
+    
+}
+
+.dog-tags {
+    margin-bottom: 0;
+}
+
+.keytag-description {
+    margin-bottom: 0rem;
+}
+
+.products-description p {
+    line-height: 1.5;
+}
+
+.bullet-points-home {
+    display: none;
+}
+
+/*MAIN SECTION*/
+
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-container {
+    display: flex;
+    
+    
+   
+    width: 100%;
+    max-width: 1300px;
+    margin-block: 3rem ;
+    align-items: center;
+    
+}
+
+
+
+.products-text-area {
+   
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    
+}
+
+.products-text-area strong {
+   color: #333;
+}
+
+/*LEFT SIDE SECTION*/
+
+.scroll-down-header {
+    width: 100%;
+    text-align: center;
+    /* margin-block: 0.5rem; */
+    padding-block: 1rem;
+    background-color: #c48b2816;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+
+.scroll-products-container {
+   
+    
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 43rem;
+    overflow-y: scroll;
+    gap: 2rem;
+    background-color: #c48b2816;
+    border-radius: 0 0 1rem 1rem;
+    
+
+}
+
+.plaque {
+   
+    
+    padding: 4rem;
+    margin-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    background-color: #c48b2816;
+    border-radius: 1rem;
+    
+
+}
+
+
+
+.product-box {
+    
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 2px 5px -2px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 3px 2px 5px -2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 3px 2px 5px -2px rgba(0,0,0,0.41);
+    transition: transform 0.2s ease-in-out; /* add a transition effect */
+
+}
+
+.product-box:hover {
+    transform: scale(1.01); /* zoom in effect on hover */
+}
+
+.product-box h3 {
+    margin-bottom: 1rem;
+}
+
+.product-box p {
+    line-height: 1.4;
+}
+
+.product-image {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+}
+
+.domestic-logo {
+    width: 4rem;
+    margin-top: 0.5rem;
+}
+
+
+.quote-btn {
+    font-size: larger;
+    
+    
+}
+
+.quote-container {
+   
+    width: 100%;
+    text-align: center;
+    background-color: #c48b2816;
+    padding: 3rem;
+}
+
+.description-image-container {
+    max-width: 100% ;
+}
+
+.description-image-container img {
+    max-width: 100%;
+}
+
+
+@media (max-width: 947px) {
+
+    .medals-image-container {
+        height: 20rem;
+       
+
+    }
+
+
+    .main-container {
+        flex-direction: column;
+        
+    }
+
+}
+
+@media (max-width: 675px) {
+
+    .medals-image-container {
+        height: 10rem;
+       
+
+    }
+
+
+    .main-container {
+        flex-direction: column-reverse;
+        
+    }
+    .no-show-mobile {
+        display: none;
+        
+    }
+
+    .bullet-points-home {
+      
+        margin-inline: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
+
+
+
+
+

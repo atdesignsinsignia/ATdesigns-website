@@ -1,0 +1,94 @@
+.banner-image-container {
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image{
+    max-width: 100%;
+}
+
+
+
+.domestic-options-image {
+    max-width: 10rem;
+}
+
+.header-text-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.back-btn-container {
+   
+    text-align: center;
+    margin: 2rem;
+}
+
+.back-btn {
+    border-radius: 0 0.5rem 0 2rem;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.bullet-points {
+    
+    max-width: 40rem;
+    margin-bottom: 2rem;
+}
+
+.bullet-points li {
+    margin-bottom: 0.2rem;
+}
+
+.indent {
+    margin-left: 1rem;
+}
+
+.quote-btn {
+    font-size: larger;
+    padding-inline: 4rem;
+    
+}
+
+.quote-container {
+   
+    width: 100%;
+    text-align: center;
+    background-color: #c48b2816;
+    padding: 3rem;
+}
+
+.personalization {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.police-badge {
+    margin-bottom: 2rem;
+}
+
+
+
+@media (max-width: 675px) {
+
+.no-show-small{
+    display: none;
+}
+
+}
