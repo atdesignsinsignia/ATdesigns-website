@@ -88,6 +88,11 @@ input, textarea, select {
     resize: vertical;
 }
 
+.small-text {
+    font-size: smaller;
+    margin-block: 1rem;
+}
+
 .quote-btn-container {
     text-align: center;
    

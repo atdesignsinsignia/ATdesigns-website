@@ -53,7 +53,6 @@
                         <li>If you would like to apply to become a reseller, fill out our application form: <br><a href="./sellourproducts.html"><strong><span>Distributor Application</span></strong></li></a>
                         <li>If you are a reseller, we will quickly answer your request.
                         If you are a consumer interested in a product, we will refer you to a reseller that serves your area.</li>
-                        <li>If you would like to send artwork files, please email them to <a href="mailto:info@atdesigns.com"><span>info@atdesigns.com</span></a></li>
                     </ul>
                 </div>
                 <input name="bot-field" style="display: none;">
@@ -76,7 +75,7 @@
                 <label for="company">Company Name</label>
                 <input type="text" id="company" name="company">
 
-                <label for="state_province">State/Province</label>
+                <label for="state_province" class="required">State/Province</label>
                 <select id="state_province" name="state_province" required>
                     <option value="">Please select</option>
                     <optgroup label="United States">
@@ -180,8 +179,15 @@
                 <input type="number" id="quantity" name="quantity" min="1" step="1">
 
                 
-                <label for="message" class="required">How would you like it to look? (Color, size, finish, etc.)</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+                <label for="message">How would you like it to look? (Color, size, finish, etc.)</label>
+                <textarea id="message" name="message" rows="6"></textarea>
+
+                <label>Reference Image(s):</label>
+                <p class="small-text">Max acceptable file size is 8MB</p>
+                <input type="file" id="upload_1" name="upload_1">
+                <input type="file" id="upload_2" name="upload_2">
+                <input type="file" id="upload_3" name="upload_3">
+
                 <div class="quote-btn-container">
                     <button type="submit">Submit</button>
                 </div>
