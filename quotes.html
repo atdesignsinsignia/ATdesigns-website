@@ -45,7 +45,7 @@
 
         <div class="container">
             
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                 <div class="quote-bullets">
                     <ul>
                         <li>Typically our resellers own their own businesses, some are trophy shops, some are online businesses, some are advertising specialty companies, some are print shops, etc.
@@ -56,7 +56,7 @@
                         <li>If you would like to send artwork files, please email them to <a href="mailto:info@atdesigns.com"><span>info@atdesigns.com</span></a></li>
                     </ul>
                 </div>
-
+                <input name="bot-field" style="display: none;">
                 <label for="customer_type" class="required">Are you a Reseller or a Consumer?</label>
                 <select id="customer_type" name="customer_type" required>
                     <option value="">Please select</option>
