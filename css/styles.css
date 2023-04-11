@@ -116,6 +116,21 @@ header{
     margin: 0 0.5rem 0 3rem;
 }
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1.4rem;
+    
+}
+
+.contact-info p {
+    color: #333;
+}
+
+
+
 /*NAV SECTION*/
 
 nav {
@@ -621,6 +636,10 @@ nav .btn:hover {
        
     }
 
+    .contact-info p {
+        font-size: small;
+    }
+
     .grid-2fr-box {
     
         height: 19.5rem;
@@ -665,6 +684,10 @@ nav .btn:hover {
         height: 4rem;
         margin: 0;
        
+    }
+
+    .contact-info p {
+        display: none;
     }
 
 
