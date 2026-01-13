@@ -42,7 +42,7 @@
         <img class="banner-image" src="./images/banner-image.webp" alt="banner image">
          
         <div class="main-btn-container">
-            <button class="main-btn large-text" onclick="redirectToCatalog()"><strong>View Catalog</strong></button>
+            <button class="main-btn large-text" onclick="redirectToCatalog(event)"><strong>View Catalog</strong></button>
         </div>
         
     </div>
@@ -151,7 +151,7 @@
             </ul>
             <ul>
                 <li><a href="./sellourproducts.html">BECOME A DISTRIBUTOR</a></li>
-                <li><a href="./Catalog/catalog.html">VIEW CATALOGS</a></li>
+                <li><a href="#" onclick="redirectToCatalog(event); return false;">VIEW CATALOGS</a></li>
                 <li><a href="./quotes.html">CONTACT US</a></li>
 
             </ul>
